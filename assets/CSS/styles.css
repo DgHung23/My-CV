@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Montserrat";
+}
+/* Common */
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+
+/* -------header-------------- */
+.header{
+    height: 100vh;
+    background: url(../imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.infomation{
+    padding-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infomation__full-name{
+    font-weight: 800;
+    font-size: 65px;
+    color: rgb(69, 137, 102);
+}
+
+.infomation__work{
+    padding-top: 12px;
+    font-size: 30px;
+}
+
+.infomation__image{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+.infomation__info{
+    padding-top: 50px;
+}
+
+.infomation__info p{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+
+.infomation__info b{
+    display: inline-block;
+    padding-right: 30px;
+    font-weight: 700;
+}
