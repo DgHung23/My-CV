@@ -25,6 +25,23 @@ button {
     margin: 0 auto;
 }
 
+.title{
+    padding-left: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(69, 137, 102);
+}
+.title__icons{
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    background-color: rgb(69, 137, 102);
+}
+.title__icon{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+
 
 .line::before{
     position: absolute;
@@ -34,6 +51,12 @@ button {
     height: 5px;
     width: 100%;
     background-color: #c5c5c5;
+}
+.main__header{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    position: relative;
 }
 
 
@@ -89,29 +112,6 @@ button {
 
 
 /* ------skill----------- */
-
-.skill__header{
-    display: flex;
-    align-items: center;
-    margin-top: 70px;
-    position: relative;
-}
-
-.skill__title{
-    padding-left: 30px;
-    font-size: 40px;
-    font-weight: 600;
-}
-.skill__icons{
-    padding: 10px 10px 5px 10px;
-    background-color: rgb(69, 137, 102);
-}
-.skill__icon{
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-}
-
 .skill__body{
     display: inline-block;
     padding-left: 350px;
@@ -144,3 +144,28 @@ button {
     list-style-type: circle;
     margin-left: 80px;
 }
+
+/* ------------------educations--------------- */
+
+.education__header{
+    position: relative;
+}
+
+.education__body{
+    margin-left: 350px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 150px 600px;
+
+}
+
+.education__items{
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.education__items--bold{
+    font-weight: 800;
+}
+
+.education__header
