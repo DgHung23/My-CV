@@ -276,7 +276,148 @@ tbody{
 }
 
 .degrees__item:hover {
-    box-shadow: 0 0 12px var(--mainColor); 
+    box-shadow: 0 0 12px #7ce8ab; 
     transform: scale(1.1);
     border: var(--mainColor) solid 4px;
     }
+
+
+    /* -------------footer--------------- */
+
+.footer{
+    margin-top: 200px;
+    background-color: var(--mainColor);
+    padding: 50px;
+}
+
+.footer__contact{
+    width: 20%;
+}
+
+.footer__content{
+    padding-top: 100px;
+    display: flex;
+}
+
+.footer__title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.icon__row{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__icon{
+    margin: auto;
+    width: 20px;
+    height: 20px;
+
+}
+
+.footer__icon path{
+    fill: #2e80ce;
+}
+
+.footer__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    transition: 0.25s;
+}
+
+.footer__link:hover{
+    background-color: #2e80ce;
+    transform: translateY(-10px) scale(1.3);
+}
+
+.footer__icon path{
+    transition: 0.25s;
+}
+
+.footer__link:hover .footer__icon path{
+    fill:#fff;
+}
+
+.footer__message{
+    box-shadow: 0 0 12px #7ce8ab; 
+    margin-left: 150px;
+    display: flex;
+    gap: 100px;
+    width: auto;
+    height: 60%;
+    border-radius: 30px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px 40px 40px;
+}
+
+.footer__input{
+    font-size: 20px;
+    display: inline-block;
+    width: 250px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: grey solid 2px;
+}
+
+.footer__label{
+    color: #c5c5c5;
+    font-size: 18px;
+    padding: 20px 0 10px 0;
+}
+
+.footer__input--extra{
+    min-height: 80px;
+    height: auto;
+}
+
+.form__row{
+    padding-left: 20px;
+    width: 350px;
+    align-self: center;
+}
+
+.form__title{
+
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.form__desc{
+    width: 290px;
+    padding-top: 18px;
+    color: #c5c5c5;
+}
+
+.footer__submit{
+    margin-left: auto;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: #7ce8ab solid 2px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.25s;
+}
+
+.footer__submit:hover{
+    transform: scale(1.2);
+    background-color: #7ce8ab;
+}
