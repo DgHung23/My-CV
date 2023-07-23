@@ -207,6 +207,7 @@ button {
     border-top: #c5c5c5 solid 2px;
     font-size: 22px;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 .projects__link{
@@ -214,14 +215,19 @@ button {
     font-size: 18px;
     color: black;
     padding: 22px 200px 22px 200px;
+    transition: 0.5s;
 }
 
 table tr{
-    transition: 0.5s ease;
+    transition: 0.8s ease;
 }
 
 table tr:hover{ 
-    background-color: #c5c5c5;
+    background-color: #7ce8ab;
+}
+
+table tr:hover .projects__name,table tr:hover .projects__link{
+    color: #fff;
 }
 
 tbody{
@@ -334,7 +340,7 @@ tbody{
 }
 
 .footer__link:hover{
-    background-color: #2e80ce;
+    background-color: #7ce8ab;
     transform: translateY(-10px) scale(1.3);
 }
 
@@ -343,7 +349,7 @@ tbody{
 }
 
 .footer__link:hover .footer__icon path{
-    fill:#fff;
+    fill:#000;
 }
 
 .footer__message{
